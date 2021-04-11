@@ -1,0 +1,27 @@
+.background {
+  z-index: -1;
+  height: 100vh;
+  filter: blur(5px);
+  background-image: url("../images/night.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+.translate-0 {
+  transform: translateX(-100%);
+}
+.custom-card {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.scroll-list {
+  max-height: 8rem;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+.list-group-item:active {
+  background-color: lightblue;
+}
+#cityName {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
